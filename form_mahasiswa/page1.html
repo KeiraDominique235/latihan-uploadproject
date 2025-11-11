@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>FORM MAHASISWA</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<form class="form-mahasiswa" action="add.php" method="POST">
+			<fieldset>
+				<legend>Form Mahasiswa</legend>
+
+				<label for="kode">Kode Mahasiswa:</label>
+				<input type="text" id="kode" name="kode" placeholder="Masukkan Kode" required />
+
+				<label for="nama">Nama Mahasiswa:</label>
+				<input type="text" id="nama" name="nama" placeholder="Masukkan Nama" required />
+
+				<label for="jurusan">Jurusan:</label>
+				<input type="text" id="jurusan" name="jurusan" placeholder="Masukkan Jurusan" required />
+
+				<label for="nim">NIM:</label>
+				<input type="text" id="nim" name="nim" placeholder="Masukkan NIM" required />
+
+				<label for="alamat">Alamat:</label>
+				<textarea id="alamat" name="alamat" placeholder="Masukkan Alamat" rows="3" required></textarea>
+
+                <button type="submit">SIMPAN</button>
+			</fieldset>
+		</form>
+	</body>
+</html>
